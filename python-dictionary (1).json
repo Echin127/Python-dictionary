@@ -1,0 +1,66 @@
+{
+  "language": "python",
+  "version": 1,
+  "functions": [
+    {
+      "id": "fms7fqtn9emkl",
+      "createdAt": 1785411224469,
+      "name": "pd.read_csv()",
+      "category": "Exploratory",
+      "syntax": "pd.read_csv('name.csv')",
+      "desc": "Load csv file",
+      "keywords": [],
+      "examples": [],
+      "updatedAt": 1785411224469
+    },
+    {
+      "id": "fms7gpzl91qyk",
+      "createdAt": 1785412865133,
+      "name": "np.mean",
+      "category": "Stats",
+      "syntax": "np.mean(array, axis=None)",
+      "desc": "Arithmetic mean of an array. axis=0 averages down columns, axis=1 across rows; omit axis to average everything into one number.",
+      "keywords": [
+        "average",
+        "mean"
+      ],
+      "examples": [
+        {
+          "code": "import numpy as np\nm = np.array([[1, 2], [3, 4]])\nnp.mean(m, axis=0)  # [2. 3.]  (column means)\nnp.mean(m, axis=1)  # [1.5 3.5](row means)",
+          "note": ""
+        }
+      ],
+      "updatedAt": 1785412865133
+    },
+    {
+      "id": "fms7gr30m5wkw",
+      "createdAt": 1785412916230,
+      "name": ".columns",
+      "category": "Exploratory",
+      "syntax": "df.columns",
+      "desc": "Prints an index of the column names and data types",
+      "keywords": [
+        "column"
+      ],
+      "examples": [],
+      "updatedAt": 1785412916230
+    },
+    {
+      "id": "fms7guoxjd2mu",
+      "createdAt": 1785413084599,
+      "name": "pd.sort_values()",
+      "category": "Sorting",
+      "syntax": "df.sort_values(['col1', 'col2'], ascending = [True, False])",
+      "desc": "Sorts values based on a column values. Left to right as input from the list",
+      "keywords": [],
+      "examples": [
+        {
+          "code": "iris.sort_values(['SepalLengthCm', 'PetalLengthCm'], ascending = [True, False])",
+          "note": "Sort by SepalLength ascending then PetalLength descending"
+        }
+      ],
+      "updatedAt": 1785413084599
+    }
+  ],
+  "setup": "    "
+}
