@@ -14,3 +14,6 @@ How to Use:
 1. Add files using the 'Data' button on top
 2. Add an import code to import said files, and the pandas/NumPy modules using the 'Setup' button. You can also create your own smaller data frames or arrays here, and they are available across the dictionary.
 3. Add new entries.
+
+Updates:
+3/8/26: Added a collapse/expand button, slightly changed top bar, searching now only returns results based on function name and keywords (now excludes description).
